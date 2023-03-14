@@ -1,0 +1,61 @@
+# Project rules
+data/
+!data/.gitkeep
+.vscode
+models/*.h5
+models/*.npy
+!models/.gitkeep
+*.zip
+*.tar.gz
+
+# C extensions
+*.so
+
+# Translations
+*.mo
+*.pot
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# golang
+vendor/*
+!vendor/vendor.json
+coverage.out
+count.out
+test
+profile.out
+tmp.out
+main
+main.exe
+bird_cub_200
+bird_cub_200.exe
